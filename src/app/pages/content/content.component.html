@@ -1,0 +1,30 @@
+<div class="container-content">
+  <div class="content-cover">
+    <img src="{{ photoCover }}" alt="" />
+  </div>
+  <div class="content-title">
+    <h1>{{ contentTitle }}</h1>
+  </div>
+
+  <div class="content-description">
+    <p>
+      {{ contentDescription }}
+    </p>
+    <div class="second-description">
+      <h3>{{ firstTitle }}</h3>
+      <p>{{ firstDescription }}</p>
+      <h3>{{ secondTitle }}</h3>
+      <p>{{ secondDescription }}</p>
+      <h3>{{ thirdTitle }}</h3>
+      <p>{{ thirdDescription }}</p>
+      <h3>{{ fourthTitle }}</h3>
+      <p>{{ fourthDescription }}</p>
+      <h3>{{ fifthTitle }}</h3>
+      <p>{{ fifthDescription }}</p>
+    </div>
+
+    <div class="back-button">
+      <a [routerLink]="['']"> << Voltar </a>
+    </div>
+  </div>
+</div>
