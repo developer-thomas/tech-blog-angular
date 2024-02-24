@@ -1,11 +1,12 @@
 .container-menu-title {
   color: white;
+  width: 100vw;
 }
 
 .container-menu-title > h1 {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 135px;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,4 +16,11 @@
 .container-menu-title > hr {
   margin-top: 20px;
   margin-bottom: 5px;
+  min-width: 100%;
+}
+
+@media (max-width: 525px) {
+  .container-menu-title > h1 {
+    font-size: 3rem;
+  }
 }

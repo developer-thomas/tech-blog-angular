@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MenuBarComponent {
   public linkedin: string = 'https://www.linkedin.com/in/thomas-edson-dev/';
-  public github: string = 'https://github.com/thomas5222';
+  public github: string = 'https://github.com/developer-thomas';
 }

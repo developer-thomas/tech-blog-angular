@@ -22,3 +22,32 @@
 .container-small-card-separator {
   margin-top: 25px;
 }
+
+@media (max-width: 800px) {
+  .container-small-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 525px) {
+  .small-card-title > a > h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* passar o texto do small card pra baixo */
+@media (max-width: 440px) {
+  .container-small-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .small-card-photo {
+    margin-top: 30px;
+  }
+
+  .small-card-title > a {
+    margin-top: 30px;
+  }
+}

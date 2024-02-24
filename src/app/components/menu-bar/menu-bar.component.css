@@ -7,3 +7,9 @@
   padding: 0px 20px;
   list-style: none;
 }
+
+@media (max-width: 525px) {
+  .container-menu-bar {
+    justify-content: center;
+  }
+}
